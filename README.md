@@ -30,7 +30,7 @@ Permite que o usuário **cadastre, visualize, edite e exclua tarefas** de forma 
 2. **Clone o repositório dentro da pasta do XAMPP:**
 ```bash
    cd C:\xampp\htdocs\
-   git clone https://github.com/seu-usuario/task-manager-web.git
+   git clone https://github.com/manoel-alves/Task_Manager-Web
 ```
 
 3. **Inicie o XAMPP e ative o Apache e o MySQL.**

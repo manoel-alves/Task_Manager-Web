@@ -43,3 +43,23 @@ Permite que o usuário **cadastre, visualize, edite e exclua tarefas** de forma 
 ```
 http://localhost/task-manager-web/Client/
 ```
+
+## 📸 Screenshots
+### ✅ Tela Principal
+![Tela Principal](./Screenshots/main_screen.png)
+#### Tasks Adicionadas
+![Tarefas](./Screenshots/tasks.png)
+#### Atualizando Tarefa
+![Atualizando tarefa](./Screenshots/updating_task.png)
+
+### ✅ *Seção*: Tarefas Completas 
+#### Vazia
+![Tarefas Completas Vazia](./Screenshots/done_tasks_empty.png)
+#### Com tarefas Completas
+![Tarefas Completas](./Screenshots/done_tasks.png)
+
+### ✅ *Seção*: Todas Tarefas
+#### Vazia
+![Todas tarefas](./Screenshots/all_tasks_empty.png)
+#### Com tarefas
+![Todas tarefas](./Screenshots/checked_tasks.png)

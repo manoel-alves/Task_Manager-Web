@@ -1,12 +1,13 @@
 <?php
 class Conexao
 {
-	private $DB_HOST = 'localhost';
-	private $DB_USER = 'root';
-	private $DB_PASS = '';
-	private $DB_NAME = 'Task_Manager_db';
+    private $DB_HOST = 'localhost';
+    private $DB_USER = 'root';
+    private $DB_PASS = '';
+    private $DB_NAME = 'Task_Manager_db';
 
-    public function conectar() {
+    public function conectar()
+    {
         try {
             $conexao = new PDO(
                 "mysql:host=$this->DB_HOST;dbname=$this->DB_NAME",
@@ -15,7 +16,6 @@ class Conexao
             );
 
             return $conexao;
-
         } catch (PDOException $exception) {
             exit('Falha ao conectar ao banco!');
         }
